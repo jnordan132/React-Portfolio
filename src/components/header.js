@@ -9,7 +9,7 @@ const styles = {
         border: '0',
         display: 'flex',
         justifyContent: 'center',
-        alignItems: 'center'
+        alignItems: 'center',
     },
     background:  {
         background: 'linear-gradient(135deg, #bfe990 0%, #5f99e4 100%)',
@@ -18,6 +18,7 @@ const styles = {
     letters: {
         color: 'white',
         font: '',
+        textAlign: 'center',
     }
 };
 
