@@ -8,14 +8,16 @@ const styles =  {
         borderBottom: '2px solid',
         borderImage: 'linear-gradient(135deg, #bfe990 0%, #5f99e4 100%)',
         borderImageSlice: '1',
-        width: '5.75%',
+        width: '8.75rem',
+        fontWeight: '300',
     },
 }
 
 function Skills() {
     return (
         <div style={styles.align}>
-            <h1 style={styles.heading}>SKILLS</h1>
+            <br/>
+            <h1 style={styles.heading}>My Skills</h1>
             <div>
                 <div>
                     <li>HTML</li>

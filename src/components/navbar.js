@@ -1,6 +1,3 @@
-import { $, jQuery } from 'jquery';
-import TweenMax from 'gsap';
-
 const styles =  {
     mainNav: {
         position: 'fixed',
@@ -8,13 +5,12 @@ const styles =  {
         maxHeight: '50px',
         zIndex: '999',
         width: '100%',
-        paddingTop: '17px',
-        background: 'none',
+        background: 'white',
         overflow: 'hidden',
         webkitTransition: 'all 0.3s',
         transition: 'all 0.3s',
-        opacity: '0',
-        paddingBottom: '15px',
+        opacity: '100',
+        paddingBottom: '10px',
     },
     ul: {
         listStyleType: 'none',
@@ -28,6 +24,7 @@ const styles =  {
         marginRight: '15px',
         lineHeight: '1.5',
         letterSpacing: '1px',
+        color: 'white',
     }
 };
 
@@ -53,46 +50,5 @@ function Navbar() {
     </div>
 </div>
 }
-
-// Header Functionality
-$(window).on("scroll", function() {
-    if ($(window).scrollTop() > 200) {
-        $('.main_nav').addClass('sticky');
-    } else {
-        $('.main_nav').removeClass('sticky');
-    }
-});
-
-$('.mobile-toggle').on("click", function() {
-    if ($('.main_nav').hasClass('open-nav')) {
-        $('.main_nav').removeClass('open-nav');
-    } else {
-        $('.main_nav').addClass('open-nav');
-    }
-});
-
-$('.main_nav li a').on("click", function() {
-    if ($('.main_nav').hasClass('open-nav')) {
-        $('.navigation').removeClass('open-nav');
-        $('.main_nav').removeClass('open-nav');
-    }
-});
-
-// Scroll
-jQuery(document).ready(function($) {
-    $('.smoothscroll').on('click', function(e) {
-        e.preventDefault();
-        const target = this.hash,
-            $target = $(target);
-
-        $('html, body').stop().animate({
-            'scrollTop': $target.offset().top
-        }, 800, 'swing', function() {
-            window.location.hash = target;
-        });
-    });
-
-});
-window.TweenMax.staggerFrom(".heading", 0.8, { opacity: 0, y: 20, delay: 0.2 }, 0.4);
 
 export default Navbar;
