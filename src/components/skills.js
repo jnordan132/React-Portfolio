@@ -1,13 +1,21 @@
 const styles =  {
     align: {
         textAlign: 'center'
-    }
+    },
+    heading:  {
+        marginLeft: 'auto',
+        marginRight: 'auto',
+        borderBottom: '2px solid',
+        borderImage: 'linear-gradient(135deg, #bfe990 0%, #5f99e4 100%)',
+        borderImageSlice: '1',
+        width: '5.75%',
+    },
 }
 
 function Skills() {
     return (
         <div style={styles.align}>
-            <h1>SKILLS</h1>
+            <h1 style={styles.heading}>SKILLS</h1>
             <div>
                 <div>
                     <li>HTML</li>

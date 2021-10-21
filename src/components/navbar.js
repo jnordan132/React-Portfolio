@@ -1,3 +1,6 @@
+import { $, jQuery } from 'jquery';
+import TweenMax from 'gsap';
+
 const styles =  {
     mainNav: {
         position: 'fixed',
@@ -50,5 +53,46 @@ function Navbar() {
     </div>
 </div>
 }
+
+// Header Functionality
+$(window).on("scroll", function() {
+    if ($(window).scrollTop() > 200) {
+        $('.main_nav').addClass('sticky');
+    } else {
+        $('.main_nav').removeClass('sticky');
+    }
+});
+
+$('.mobile-toggle').on("click", function() {
+    if ($('.main_nav').hasClass('open-nav')) {
+        $('.main_nav').removeClass('open-nav');
+    } else {
+        $('.main_nav').addClass('open-nav');
+    }
+});
+
+$('.main_nav li a').on("click", function() {
+    if ($('.main_nav').hasClass('open-nav')) {
+        $('.navigation').removeClass('open-nav');
+        $('.main_nav').removeClass('open-nav');
+    }
+});
+
+// Scroll
+jQuery(document).ready(function($) {
+    $('.smoothscroll').on('click', function(e) {
+        e.preventDefault();
+        const target = this.hash,
+            $target = $(target);
+
+        $('html, body').stop().animate({
+            'scrollTop': $target.offset().top
+        }, 800, 'swing', function() {
+            window.location.hash = target;
+        });
+    });
+
+});
+window.TweenMax.staggerFrom(".heading", 0.8, { opacity: 0, y: 20, delay: 0.2 }, 0.4);
 
 export default Navbar;
