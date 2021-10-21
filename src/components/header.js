@@ -1,5 +1,6 @@
 import pictureOfMe from '../IMG_me.jpg';
 
+
 const styles = {
     background:  {
         background: 'linear-gradient(135deg, #bfe990 0%, #5f99e4 100%)',
@@ -29,6 +30,9 @@ const styles = {
         fontSize: '1.75rem',
         textAlign: 'center',
     },
+    align: {
+        
+    }
 
 };
 
@@ -38,11 +42,13 @@ function Header() {
     return  (
     <div>    
         <div style={styles.background}>
-            <div style={styles.imgBox}>
-                <img style={styles.img} src={pictureOfMe} width="300" height="320" alt="me"/>
+            <div className="d0flex align-items-center">
+                <div style={styles.imgBox}>
+                    <img style={styles.img} src={pictureOfMe} width="300" height="320" alt="me"/>
+                </div>
+                <h1 style={styles.letters}>{name}</h1>
+                <h2 style={styles.lettersTwo}>{occupation}</h2>
             </div>
-            <h1 style={styles.letters}>{name}</h1>
-            <h2 style={styles.lettersTwo}>{occupation}</h2>
         </div>
     </div>
     );

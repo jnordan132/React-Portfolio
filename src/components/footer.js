@@ -27,13 +27,13 @@ function Footer() {
             <div style={styles.position}>
                 <br/>
             <div style={styles.icons}>
-                <a href="https://www.linkedin.com/in/jacob-nordan/">
+                <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/jacob-nordan/" style={{color: 'white'}}>
                     <TiSocialLinkedinCircular/>
                 </a>
-                <a href="https://github.com/jnordan132">
+                <a target="_blank" rel="noreferrer" href="https://www.github.com/jnordan132" style={{color: 'white'}}>
                     <TiSocialGithubCircular/>
                 </a>
-                <a href={resume}>
+                <a target="_blank" rel="noreferrer" href={resume} style={{color: 'white'}}>
                     <TiDocumentText/>
                 </a>
             </div>

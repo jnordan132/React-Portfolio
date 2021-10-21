@@ -11,6 +11,9 @@ const styles =  {
         width: '8.75rem',
         fontWeight: '300',
     },
+    list: {
+        listStyleType: 'none'
+    }
 }
 
 function Skills() {
@@ -18,7 +21,7 @@ function Skills() {
         <div style={styles.align}>
             <br/>
             <h1 style={styles.heading}>My Skills</h1>
-            <div>
+            <div style={styles.list}>
                 <div>
                     <li>HTML</li>
                     <li>CSS</li>

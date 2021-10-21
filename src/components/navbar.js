@@ -25,6 +25,7 @@ const styles =  {
         lineHeight: '1.5',
         letterSpacing: '1px',
         color: 'white',
+        textDecoration: 'none'
     }
 };
 
@@ -40,11 +41,11 @@ function Navbar() {
         <div className="mobile-toggle"><span></span> <span></span> <span></span></div>
         <nav>
             <ul style={styles.ul}>
-                <li style={styles.ulli}><a href="#home">{home}</a></li>
-                <li style={styles.ulli}><a href="#about">{about}</a></li>
-                <li style={styles.ulli}><a href="#skills">{skills}</a></li>
-                <li style={styles.ulli}><a href="#portfolio">{portfolio}</a></li>
-                <li style={styles.ulli}><a href="#contact">{contact}</a></li>
+                <li style={styles.ulli}><a href="#home" style={{ textDecoration: 'none', color: '#5f99e4' }}>{home}</a></li>
+                <li style={styles.ulli}><a href="#about" style={{ textDecoration: 'none', color: '#5f99e4' }}>{about}</a></li>
+                <li style={styles.ulli}><a href="#skills" style={{ textDecoration: 'none', color: '#5f99e4' }}>{skills}</a></li>
+                <li style={styles.ulli}><a href="#portfolio" style={{ textDecoration: 'none', color: '#5f99e4' }}>{portfolio}</a></li>
+                <li style={styles.ulli}><a href="#contact" style={{ textDecoration: 'none', color: '#5f99e4' }}>{contact}</a></li>
             </ul>
         </nav>
     </div>
