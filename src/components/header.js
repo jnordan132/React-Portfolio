@@ -17,6 +17,7 @@ const styles = {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
+        paddingTop: '12%'
     },
     letters: {
         color: 'white',
@@ -42,7 +43,7 @@ function Header() {
     return  (
     <div>    
         <div style={styles.background}>
-            <div className="d0flex align-items-center">
+            <div>
                 <div style={styles.imgBox}>
                     <img style={styles.img} src={pictureOfMe} width="300" height="320" alt="me"/>
                 </div>
@@ -50,6 +51,7 @@ function Header() {
                 <h2 style={styles.lettersTwo}>{occupation}</h2>
             </div>
         </div>
+        <br/>
     </div>
     );
 }

@@ -18,6 +18,7 @@ function Work() {
         <div style={styles.align}>
             <br/>
             <h1 style={styles.heading}>My Work</h1>
+            <br/>
         </div>
     );
 }

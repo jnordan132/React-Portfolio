@@ -18,11 +18,13 @@ function Contact() {
         <div style={styles.align}>
             <br/>
             <h1 style={styles.heading}>Contact Me</h1>
-            <h5>Email</h5>
-            <a id="email" href="mailto: jacob.nordan113322@gmail.com">jacob.nordan113322@gmail.com</a>
             <br/>
-            <h5>Phone</h5>
-            <a id="phone" href="tel:910-620-0143">+1 (910)-620-0143</a>
+            <div>
+                <h3>Email</h3>
+                <h4><a style={{ textDecoration: 'none', color: '#5f99e4' }} id="email" href="mailto: jacob.nordan113322@gmail.com">jacob.nordan113322@gmail.com</a></h4>
+                <h3>Phone</h3>
+                <h4><a style={{ textDecoration: 'none', color: '#5f99e4' }} id="phone" href="tel:910-620-0143">+1 (910)-620-0143</a></h4>
+            </div>
         </div>
     );
 }

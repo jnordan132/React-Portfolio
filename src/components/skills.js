@@ -12,7 +12,13 @@ const styles =  {
         fontWeight: '300',
     },
     list: {
-        listStyleType: 'none'
+        listStyleType: 'none',
+        display: 'flex',
+        justifyContent: 'space-around',
+        width: '51.5%',
+        lineHeight: '165%',
+        marginLeft: '25%',
+        marginRight: '25%',
     }
 }
 
@@ -21,6 +27,8 @@ function Skills() {
         <div style={styles.align}>
             <br/>
             <h1 style={styles.heading}>My Skills</h1>
+            <br/>
+            <br/>
             <div style={styles.list}>
                 <div>
                     <li>HTML</li>
@@ -43,6 +51,7 @@ function Skills() {
                     <li>Git</li>
                 </div>
             </div>
+            <br/>
         </div>
     );
 }
