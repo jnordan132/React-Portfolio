@@ -9,7 +9,7 @@ const styles =  {
         borderImage: 'linear-gradient(135deg, #bfe990 0%, #5f99e4 100%)',
         borderImageSlice: '1',
         width: '10rem',
-        fontWeight: '300',
+        fontWeight: '500',
     },
     paragraph: {
         marginLeft: '8%',
