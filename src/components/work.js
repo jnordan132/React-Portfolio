@@ -19,7 +19,7 @@ const styles =  {
 
 function Work() {
     return (
-        <div style={styles.align}>
+        <div id="portfolio" style={styles.align}>
             <br/>
             <h1 style={styles.heading}>My Work</h1>
             <br/>
