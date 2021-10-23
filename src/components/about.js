@@ -20,7 +20,7 @@ const styles =  {
 
 function About() {
     return (
-        <div style={styles.align}>
+        <div id="about" style={styles.align}>
             <br/>
             <h1 style={styles.heading}>About Me</h1>
             <br/>
