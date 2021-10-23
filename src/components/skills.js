@@ -24,7 +24,7 @@ const styles =  {
 
 function Skills() {
     return (
-        <div style={styles.align}>
+        <div id="skills" style={styles.align}>
             <br/>
             <h1 style={styles.heading}>My Skills</h1>
             <br/>
