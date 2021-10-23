@@ -1,6 +1,6 @@
 # React Portfolio
-[Live URL]()
-[Github Repo]()
+[Live URL]()\
+[Github Repo](https://github.com/jnordan132/React-Portfolio)
 
 # Description
 This is my React portfolio, its a full stack application minus a databse, this website showcases some websites that I have made  as well as ways to contact me if looking to hire.  
