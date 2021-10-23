@@ -1,8 +1,5 @@
-
-# React-Portfolio
-
 # React Portfolio
-[Live URL]()\
+[Live URL](https://jnordan132.github.io/React-Portfolio/)\
 [Github Repo](https://github.com/jnordan132/React-Portfolio)
 
 # Description
