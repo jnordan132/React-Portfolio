@@ -1,3 +1,5 @@
+import { Link } from 'react-scroll';
+
 const styles =  {
     mainNav: {
         position: 'fixed',
@@ -41,11 +43,11 @@ function Navbar() {
     <div className="container">
         <nav>
             <ul style={styles.ul}>
-                <li style={styles.ulli}><a href="#home" style={{ textDecoration: 'none', color: '#5f99e4' }}>{home}</a></li>
-                <li style={styles.ulli}><a href="#about" style={{ textDecoration: 'none', color: '#5f99e4' }}>{about}</a></li>
-                <li style={styles.ulli}><a href="#skills" style={{ textDecoration: 'none', color: '#5f99e4' }}>{skills}</a></li>
-                <li style={styles.ulli}><a href="#portfolio" style={{ textDecoration: 'none', color: '#5f99e4' }}>{portfolio}</a></li>
-                <li style={styles.ulli}><a href="#contact" style={{ textDecoration: 'none', color: '#5f99e4' }}>{contact}</a></li>
+                <li style={styles.ulli}><a href="home" style={{ textDecoration: 'none' }}><Link to="home" spy={true} smooth={true} style={{ color: '#5f99e4' }}>{home}</Link></a></li>
+                <li style={styles.ulli}><a href="about" style={{ textDecoration: 'none' }}><Link to="about" spy={true} smooth={true} style={{ color: '#5f99e4' }}>{about}</Link></a></li>
+                <li style={styles.ulli}><a href="skills" style={{ textDecoration: 'none' }}><Link to="skills" spy={true} smooth={true} style={{ color: '#5f99e4' }}>{skills}</Link></a></li>
+                <li style={styles.ulli}><a href="portfolio" style={{ textDecoration: 'none' }}><Link to="portfolio" spy={true} smooth={true} style={{ color: '#5f99e4' }}>{portfolio}</Link></a></li>
+                <li style={styles.ulli}><a href="contact" style={{ textDecoration: 'none' }}><Link to="contact" spy={true} smooth={true} style={{ color: '#5f99e4' }}>{contact}</Link></a></li>
             </ul>
         </nav>
     </div>
