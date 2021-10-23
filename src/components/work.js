@@ -35,6 +35,7 @@ function Work() {
             <br/>
             <h1 style={styles.heading}>My Work</h1>
             <br/>
+            <br/>
             <div style={styles.flexSection}>
                 <div style={{ border: '2px solid black', backgroundColor: 'darkgrey'}}>
                     <Card style={{ width: '35rem' }}>
@@ -42,13 +43,12 @@ function Work() {
                         <Card.Body>
                           <Card.Title><h3 style= {{ color: 'white'}}>Feedster</h3></Card.Title>
                           <Card.Text style={{marginLeft: '7%', marginRight: '7%',color: 'white'}}>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
+                            Feedster is a custom Twitter feed site, you can create your own feed based on twitter users you want in each feed. 
                           </Card.Text>
                         </Card.Body>
                         <Card.Body style={{ display: 'flex', justifyContent: 'space-around', marginRight: '40%', marginLeft: '40%', width: '23%'}}>
                           <Card.Link style={{ textDecoration: 'none',  backgroundColor: '#5f99e4', color: 'white', padding: '5%', borderRadius: '15%'}} target="_blank" href="https://github.com/jnordan132/Feedster">Code</Card.Link>
-                          <Card.Link style={{ textDecoration: 'none',  backgroundColor: '#5f99e4', color: 'white', padding: '5%', borderRadius: '15%'}} target="_blank" href="#">Website</Card.Link>
+                          <Card.Link style={{ textDecoration: 'none',  backgroundColor: '#5f99e4', color: 'white', padding: '5%', borderRadius: '15%'}} target="_blank" href="https://feedster-twitter-feed.herokuapp.com/">Website</Card.Link>
                         </Card.Body>
                         <br/>
                     </Card>
@@ -59,8 +59,7 @@ function Work() {
                         <Card.Body>
                           <Card.Title><h3 style= {{ color: 'white'}}>Weather Dashboard</h3></Card.Title>
                           <Card.Text style={{marginLeft: '7%', marginRight: '7%',color: 'white'}}>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
+                            This is a weather dashboard that dispalys 5 day forcast as well as current forecast for any US City or Town.
                           </Card.Text>
                         </Card.Body>
                         <Card.Body style={{ display: 'flex', justifyContent: 'space-around', marginRight: '40%', marginLeft: '40%', width: '23%'}}>
@@ -76,8 +75,7 @@ function Work() {
                         <Card.Body>
                           <Card.Title><h3 style= {{ color: 'white'}}>Feedit</h3></Card.Title>
                           <Card.Text style={{marginLeft: '7%', marginRight: '7%',color: 'white'}}>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
+                            Feedit is a food and alcoholc beverage recipe site that also shows nutritional information about each recipe.
                           </Card.Text>
                         </Card.Body>
                         <Card.Body style={{ display: 'flex', justifyContent: 'space-around', marginRight: '40%', marginLeft: '40%', width: '23%'}}>
@@ -97,8 +95,7 @@ function Work() {
                         <Card.Body>
                           <Card.Title><h3 style= {{ color: 'white'}}>Day Planner</h3></Card.Title>
                           <Card.Text style={{marginLeft: '7%', marginRight: '7%', color: 'white'}}>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
+                            This is a Work or regular day planner that is color coded throughout the day to signify which hour you are  on of your day.
                           </Card.Text>
                         </Card.Body>
                         <Card.Body style={{ display: 'flex', justifyContent: 'space-around', marginRight: '40%', marginLeft: '40%', width: '23%'}}>
@@ -114,8 +111,7 @@ function Work() {
                         <Card.Body>
                           <Card.Title><h3 style= {{ color: 'white'}}>JavaScript Quiz</h3></Card.Title>
                           <Card.Text style={{marginLeft: '7%', marginRight: '7%', color: 'white'}}>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
+                            This JavaScript quiz has very basic questions pertaining to Javascript.
                           </Card.Text>
                         </Card.Body>
                         <Card.Body style={{ display: 'flex', justifyContent: 'space-around', marginRight: '40%', marginLeft: '40%', width: '23%'}}>
@@ -131,8 +127,7 @@ function Work() {
                         <Card.Body>
                           <Card.Title><h3 style= {{ color: 'white'}}>Note Taker</h3></Card.Title>
                           <Card.Text style={{marginLeft: '7%', marginRight: '7%', color: 'white'}}>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
+                            Note taker is exactly what you would expect, a web app  for taking notes.
                           </Card.Text>
                         </Card.Body>
                         <Card.Body style={{ display: 'flex', justifyContent: 'space-around', marginRight: '40%', marginLeft: '40%', width: '23%'}}>

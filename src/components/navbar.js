@@ -9,8 +9,6 @@ const styles =  {
         width: '100%',
         background: 'white',
         overflow: 'hidden',
-        webkitTransition: 'all 0.3s',
-        transition: 'all 0.3s',
         opacity: '100',
         paddingBottom: '10px',
     },
@@ -22,9 +20,9 @@ const styles =  {
     ulli: {
         display: 'inline-block',
         alignItems: 'center',
-        marginLeft: '20px',
-        marginRight: '20px',
-        lineHeight: '1.5',
+        marginLeft: '1.25rem',
+        marginRight: '1.25rem',
+        lineHeight: '1.5%',
         letterSpacing: '1px',
         color: 'white',
         textDecoration: 'none'
@@ -39,10 +37,10 @@ function Navbar() {
     const portfolio = "PORTFOLIO";
     const contact = "CONTACT";
 
-    return <div style={styles.mainNav} className="main_nav">
-    <div className="container">
+    return <div style={styles.mainNav} id="main_nav">
+    <div id="container">
         <nav>
-            <ul style={styles.ul}>
+            <ul  style={styles.ul}>
                 <li style={styles.ulli}><a href="home" style={{ textDecoration: 'none' }}><Link to="home" spy={true} smooth={true} style={{ color: '#5f99e4' }}>{home}</Link></a></li>
                 <li style={styles.ulli}><a href="about" style={{ textDecoration: 'none' }}><Link to="about" spy={true} smooth={true} style={{ color: '#5f99e4' }}>{about}</Link></a></li>
                 <li style={styles.ulli}><a href="skills" style={{ textDecoration: 'none' }}><Link to="skills" spy={true} smooth={true} style={{ color: '#5f99e4' }}>{skills}</Link></a></li>
