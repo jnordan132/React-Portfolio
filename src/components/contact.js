@@ -25,7 +25,7 @@ const styles =  {
 
 function Contact() {
     return (
-        <div style={styles.align}>
+        <div id="contact" style={styles.align}>
             <br/>
                 <h1 style={styles.heading}>Contact Me</h1>
             <br/>
@@ -36,10 +36,6 @@ function Contact() {
                     <div>
                     <a style={{ textDecoration: 'none', color: '#5f99e4', fontSize: '250%' }} target="_blank" rel="noreferrer" href={resume}><TiDocumentText/></a>
                     </div>
-                </div>
-            <br/>
-            <br/>
-                <div style={styles.layout}>
                     <div>
                         <a style={{ textDecoration: 'none', color: '#5f99e4', fontSize: '250%' }} target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/jacob-nordan/"><TiSocialLinkedinCircular/></a>
                     </div>
