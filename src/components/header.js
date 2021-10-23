@@ -42,7 +42,7 @@ function Header() {
     const occupation = "FULLSTACK WEB DEVELOPMENT"
     return  (
     <div>    
-        <div style={styles.background}>
+        <div id="home" style={styles.background}>
             <div>
                 <div style={styles.imgBox}>
                     <img style={styles.img} src={pictureOfMe} width="300" height="320" alt="me"/>
